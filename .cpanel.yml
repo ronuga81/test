@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ronugapt/public_html/GitHub/test
+    - /bin/cp index.php $DEPLOYPATH
